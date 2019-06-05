@@ -14,7 +14,10 @@ If you want to load an ontology from a local file on disk then add the ontology 
 
 ## Run the container on port 80
 
-`docker run -d -p 8080:80 -t ols`
+`docker run -d -p 8080:8080 -t ols`
 
-Access the OLS through your browser on http://localhost
+Access the OLS through your browser on http://localhost:8080
 
+## Updating the data
+
+Rebuild the container to re-load new ontology versions.  
