@@ -12,7 +12,7 @@ If you want to load an ontology from a local file on disk then add the ontology 
 
 `docker build -t ols .`
 
-## Run the container on port 80
+## Run the container
 
 `docker run -d -p 8080:8080 -t ols`
 
